@@ -1,0 +1,9 @@
+{
+  "name": "functions",
+  "description": "netlify function example",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "qs": "^6.5.2"
+  },
+  "private": true
+}

@@ -1,3 +1,4 @@
 [build]
   publish = "_site/"
   functions = "functions/"
+  command = "cd func && npm install && cd .. && netlify-lambda build func"
