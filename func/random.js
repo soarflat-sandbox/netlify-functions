@@ -9,7 +9,7 @@ export function handler(event, context, callback) {
   const respond = body => {
     callback(null, {
       statusCode: 200,
-      body: JSON.stringify({ x: 5, y: 6 })
+      body: JSON.stringify(body)
     });
   };
 
